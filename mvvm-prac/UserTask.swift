@@ -7,12 +7,15 @@
 
 import SwiftUI
 
-struct UserTask: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//ContentViewから移してきた
+struct Task: Identifiable,Equatable{
+    let id = UUID()
+    let title: String
+    var checked: Bool
+    
+    //これによってインスタンスを作るときに値が格納される
+    init(title: String, checked: Bool){
+        self.title = title
+        self.checked = checked
     }
-}
-
-#Preview {
-    UserTask()
 }

@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct ListRow: View {
+    
+    let task:String
+    var isCheck:Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            if isCheck{
+                Image(systemName: "checkmark").foregroundColor(.green)
+                Text(task)
+                    .strikethrough()
+                    .fontWeight(.ultraLight)
+            } else {
+                Text(task)
+            }
+            
+        }
     }
 }
 
-#Preview {
-    ListRow()
+
+struct ListRow_Previews:PreviewProvider{
+    static var previews : some View{
+        ListRow(task:"料理",isCheck: true)
+    }
 }

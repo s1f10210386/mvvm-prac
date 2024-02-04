@@ -14,6 +14,9 @@
 		2A2D78B12B6FEEE30068FA55 /* mvvm_pracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D78B02B6FEEE30068FA55 /* mvvm_pracTests.swift */; };
 		2A2D78BB2B6FEEE30068FA55 /* mvvm_pracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D78BA2B6FEEE30068FA55 /* mvvm_pracUITests.swift */; };
 		2A2D78BD2B6FEEE30068FA55 /* mvvm_pracUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D78BC2B6FEEE30068FA55 /* mvvm_pracUITestsLaunchTests.swift */; };
+		2A2D78D52B6FF30E0068FA55 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D78D42B6FF30E0068FA55 /* ListRow.swift */; };
+		2A2D78D72B6FFA720068FA55 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D78D62B6FFA720068FA55 /* UserData.swift */; };
+		2A2D78D92B6FFBBC0068FA55 /* UserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D78D82B6FFBBC0068FA55 /* UserTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2A2D78B62B6FEEE30068FA55 /* mvvm-pracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvvm-pracUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2D78BA2B6FEEE30068FA55 /* mvvm_pracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_pracUITests.swift; sourceTree = "<group>"; };
 		2A2D78BC2B6FEEE30068FA55 /* mvvm_pracUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_pracUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A2D78D42B6FF30E0068FA55 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		2A2D78D62B6FFA720068FA55 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		2A2D78D82B6FFBBC0068FA55 /* UserTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				2A2D78A12B6FEEE20068FA55 /* ContentView.swift */,
 				2A2D78A32B6FEEE30068FA55 /* Assets.xcassets */,
 				2A2D78A52B6FEEE30068FA55 /* Preview Content */,
+				2A2D78D42B6FF30E0068FA55 /* ListRow.swift */,
+				2A2D78D62B6FFA720068FA55 /* UserData.swift */,
+				2A2D78D82B6FFBBC0068FA55 /* UserTask.swift */,
 			);
 			path = "mvvm-prac";
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2D78D92B6FFBBC0068FA55 /* UserTask.swift in Sources */,
 				2A2D78A22B6FEEE20068FA55 /* ContentView.swift in Sources */,
 				2A2D78A02B6FEEE20068FA55 /* mvvm_pracApp.swift in Sources */,
+				2A2D78D72B6FFA720068FA55 /* UserData.swift in Sources */,
+				2A2D78D52B6FF30E0068FA55 /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

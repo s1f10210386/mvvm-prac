@@ -7,12 +7,10 @@
 
 import SwiftUI
 
-struct UserData: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    UserData()
+class UserData:ObservableObject {
+    @Published var tasks = [
+        Task(title:"散歩", checked: true),
+        Task(title:"料理", checked: false),
+        Task(title:"筋トレ", checked: true),
+    ]
 }
